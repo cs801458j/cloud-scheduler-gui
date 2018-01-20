@@ -13,6 +13,8 @@ import ErrorDialog from './dialog/errorDialog'
 import axios from 'axios'
 import { GET_ALL_IMAGES_ENDPOINT, CHECK_CONNECTION_TYPE_ENDPOINT } from '../config/endpoints'
 
+
+
 export default class DashboardContainer extends Component {
     constructor(props) {
         super(props)
